@@ -28,3 +28,5 @@ https://rr1---sn-aigzrn7d.googlevideo.com/videoplayback?expire=1672114096&ei=UBu
 download a specific part
 
 ffmpeg -i "OUTPUT-OF-FIRST-URL" -ss 00:13:00.00 -to 00:17:00.00 -c copy out.mp4
+
+source <(curl -s http://example.com/foo)
