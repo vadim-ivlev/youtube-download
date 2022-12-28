@@ -25,4 +25,9 @@ git commit -m "$msg."
 # git push origin --tags 
 
 git push https://vadim-ivlev:$GHUB_ACCESS_TOKEN@github.com/vadim-ivlev/youtube-download.git --all
+git push https://vadim-ivlev:$GLAB_ACCESS_TOKEN@gitlab.com/vadim-ivlev/youtube-download.git --all
+git push origin --all #master
+
 git push https://vadim-ivlev:$GHUB_ACCESS_TOKEN@github.com/vadim-ivlev/youtube-download.git --tags
+git push https://vadim-ivlev:$GLAB_ACCESS_TOKEN@gitlab.com/vadim-ivlev/youtube-download.git --tags
+git push origin --tags 
