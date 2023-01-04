@@ -1,0 +1,8 @@
+{
+  "name":"universal",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {},
+    "ghcr.io/devcontainers-contrib/features/youtube-dl:2": {}
+  }
+}
