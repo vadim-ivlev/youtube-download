@@ -23,3 +23,5 @@ git push https://vadim-ivlev:$GLAB_ACCESS_TOKEN@gitlab.com/vadim-ivlev/$repo_nam
 
 git push origin --all #master
 git push origin --tags 
+
+##
