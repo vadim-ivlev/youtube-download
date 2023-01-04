@@ -19,7 +19,7 @@ git push https://vadim-ivlev:$GHUB_ACCESS_TOKEN@github.com/vadim-ivlev/$repo_nam
 git push https://vadim-ivlev:$GHUB_ACCESS_TOKEN@github.com/vadim-ivlev/$repo_name.git --tags
 
 git push https://vadim-ivlev:$GLAB_ACCESS_TOKEN@gitlab.com/vadim-ivlev/$repo_name.git --all
-git push https://vadim-ivlev:$GLAB_ACCESS_TOKEN@gitlab.com/vadim-ivlev/$repo_name.git --tags
+# git push https://vadim-ivlev:$GLAB_ACCESS_TOKEN@gitlab.com/vadim-ivlev/$repo_name.git --tags
 
 # git push origin --all #master
 # git push origin --tags 
