@@ -16,7 +16,7 @@ echo "repo_name = $repo_name"
 # git remote add gitlab git@gitlab.com:vadim-ivlev/$repo_name.git
 
 git push https://vadim-ivlev:$GHUB_ACCESS_TOKEN@github.com/vadim-ivlev/$repo_name.git --all
-git push https://vadim-ivlev:$GHUB_ACCESS_TOKEN@github.com/vadim-ivlev/$repo_name.git --tags
+# git push https://vadim-ivlev:$GHUB_ACCESS_TOKEN@github.com/vadim-ivlev/$repo_name.git --tags
 
 git push https://vadim-ivlev:$GLAB_ACCESS_TOKEN@gitlab.com/vadim-ivlev/$repo_name.git --all
 # git push https://vadim-ivlev:$GLAB_ACCESS_TOKEN@gitlab.com/vadim-ivlev/$repo_name.git --tags
