@@ -30,3 +30,24 @@ download a specific part
 ffmpeg -i "OUTPUT-OF-FIRST-URL" -ss 00:13:00.00 -to 00:17:00.00 -c copy out.mp4
 
 source <(curl -s http://example.com/foo)
+
+
+# Converting audio
+
+https://superuser.com/questions/704493/ffmpeg-convert-m4a-to-mp3-without-significant-loss
+
+
+```
+ffmpeg -i woa_ba.weba  -c:v copy -c:a libmp3lame  woa_ba.mp3
+
+ffmpeg -i woa_ba.weba  -c:v copy -c:a libmp3lame -q:a 4  woa_ba.mp3
+
+```
+
+# Downloading audio
+
+```
+./yt-dlp -f 140 'https://www.youtube.com/watch?v=9CdKl2HktGA&t=6627s&ab_channel=KINDL' -o woa1.m4a
+
+./yt-dlp -f ba 'https://www.youtube.com/watch?v=9CdKl2HktGA&t=6627s&ab_channel=KINDL'
+```
